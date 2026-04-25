@@ -1,0 +1,73 @@
+:root {
+  --accentColor: #5eead4;
+  --backgroundColor: #050810;
+  --cWidth: calc(100% - 30px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundColor);
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accentColor);
+  border-radius: 10px;
+}
+
+@media (min-width: 901px) {
+  :root {
+    --cWidth: calc(100% - 30px);
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --cWidth: calc(100% - 60px);
+  }
+}
+
+.section-container {
+  width: var(--cWidth);
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.smooth-wrapper {
+  width: 100%;
+}
+
+.smooth-content {
+  width: 100%;
+}
+
+.main-body {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}

@@ -1,0 +1,45 @@
+.social-icons {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(5,8,16,0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px 24px;
+  border-radius: 60px;
+  border: 1px solid rgba(94,234,212,0.15);
+}
+.social-icon {
+  --siLeft: 0px;
+  --siTop: 0px;
+  color: rgba(255,255,255,0.6);
+  font-size: 20px;
+  transition: color 0.3s, transform 0.2s;
+  transform: translate(var(--siLeft), var(--siTop));
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.social-icon:hover { color: var(--accentColor); }
+.social-resume {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+.social-resume:hover { color: var(--accentColor); }
+.social-resume span { font-size: 12px; }
+
+@media (max-width: 500px) {
+  .social-icons { bottom: 16px; gap: 14px; padding: 10px 16px; }
+  .social-icon { font-size: 17px; }
+}

@@ -1,0 +1,26 @@
+.hover-link {
+  position: relative;
+  display: inline-flex;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+.hover-in {
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.hover-in div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: var(--accentColor);
+}
+.hover-link:hover .hover-in {
+  transform: translateY(-100%);
+}
+.hover-icon {
+  margin-right: 6px;
+  display: inline-flex;
+  align-items: center;
+}

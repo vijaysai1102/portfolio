@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" font-family="Inter,system-ui,sans-serif">
+
+  <!-- Overall background -->
+  <rect width="1400" height="820" fill="#0f1117"/>
+
+  <!-- Left sidebar -->
+  <rect x="0" y="0" width="280" height="820" fill="#1a1d2e"/>
+
+  <!-- Sidebar "About" heading -->
+  <text x="24" y="56" font-size="18" font-weight="700" fill="#ffffff">About</text>
+
+  <!-- Blue highlighted box -->
+  <rect x="16" y="70" width="248" height="110" rx="6" fill="#1e3a5f"/>
+  <text x="28" y="94" font-size="11.5" fill="#5eaeff" line-height="1.6">
+    <tspan x="28" dy="0">This agent uses a RAG pipeline</tspan>
+    <tspan x="28" dy="18">with Google Gemini to query</tspan>
+    <tspan x="28" dy="18">the 2026 FIA Technical</tspan>
+    <tspan x="28" dy="18">Regulations.</tspan>
+  </text>
+
+  <!-- Key Features heading -->
+  <text x="24" y="216" font-size="15" font-weight="700" fill="#ffffff">Key Features</text>
+
+  <!-- Bullet points -->
+  <circle cx="34" cy="240" r="3" fill="#ffffff"/>
+  <text x="46" y="244" font-size="12" fill="#ffffff">Direct PDF Querying</text>
+  <circle cx="34" cy="266" r="3" fill="#ffffff"/>
+  <text x="46" y="270" font-size="12" fill="#ffffff">Mandatory Citations</text>
+  <circle cx="34" cy="292" r="3" fill="#ffffff"/>
+  <text x="46" y="296" font-size="12" fill="#ffffff">Zero Hallucination Focus</text>
+
+  <!-- Clear Chat button -->
+  <rect x="16" y="318" width="96" height="34" rx="6" fill="#2a2d3e" stroke="#444" stroke-width="1"/>
+  <text x="64" y="340" font-size="12" fill="#ffffff" text-anchor="middle">Clear Chat</text>
+
+  <!-- Divider -->
+  <line x1="280" y1="0" x2="280" y2="820" stroke="#2a2d3e" stroke-width="1"/>
+
+  <!-- Top bar -->
+  <rect x="280" y="0" width="1120" height="48" fill="#0f1117"/>
+  <line x1="280" y1="48" x2="1400" y2="48" stroke="#2a2d3e" stroke-width="1"/>
+
+  <!-- Top-right icons -->
+  <text x="1240" y="30" font-size="13" fill="#aaaaaa">Share</text>
+  <text x="1300" y="30" font-size="16" fill="#aaaaaa">☆</text>
+  <text x="1330" y="30" font-size="16" fill="#aaaaaa">✎</text>
+  <text x="1358" y="30" font-size="16" fill="#aaaaaa">⌥</text>
+  <text x="1386" y="30" font-size="16" fill="#aaaaaa">⋮</text>
+
+  <!-- Main content area -->
+  <!-- Title with emoji -->
+  <text x="840" y="118" font-size="36" font-weight="800" fill="#ffffff" text-anchor="middle">🏎️  2026 F1 Spec Technical RAG Agent</text>
+
+  <!-- Subtitle description -->
+  <text x="840" y="158" font-size="13.5" fill="#cccccc" text-anchor="middle">Ask specific technical questions about the</text>
+  <text x="840" y="176" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">2026 FIA Formula 1 Technical Regulations.</text>
+  <text x="840" y="194" font-size="13.5" fill="#cccccc" text-anchor="middle">The agent will answer based on the official PDF and provide</text>
+  <text x="840" y="212" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Article Number</text>
+  <text x="970" y="212" font-size="13.5" fill="#cccccc"> citations.</text>
+
+  <!-- Green "Database initialized!" banner -->
+  <rect x="296" y="236" width="1088" height="56" rx="6" fill="#14532d"/>
+  <rect x="296" y="236" width="6" height="56" rx="3" fill="#22c55e"/>
+  <text x="330" y="269" font-size="15" font-weight="500" fill="#4ade80">Database initialized!</text>
+
+  <!-- Expand icon on right of banner -->
+  <text x="1360" y="269" font-size="18" fill="#4ade80">⌃</text>
+
+  <!-- Bottom input area -->
+  <rect x="296" y="756" width="1088" height="52" rx="10" fill="#1e2030" stroke="#3a3d4e" stroke-width="1.5"/>
+  <text x="330" y="787" font-size="13" fill="#6b7280">Ex: What are the active aero modes (X-mode/Z-mode)?</text>
+
+  <!-- Send button -->
+  <rect x="1334" y="764" width="36" height="36" rx="8" fill="#3a3d4e"/>
+  <text x="1352" y="787" font-size="16" fill="#9ca3af" text-anchor="middle">↑</text>
+
+  <!-- Bottom "Manage app" link -->
+  <text x="1368" y="808" font-size="12" fill="#6b7280" text-anchor="end">&#8249; Manage app</text>
+
+</svg>

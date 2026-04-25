@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d2a40;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g1)"/>
+  <circle cx="400" cy="200" r="80" fill="none" stroke="#5eead4" stroke-width="2" opacity="0.4"/>
+  <circle cx="400" cy="200" r="50" fill="#5eead4" opacity="0.1"/>
+  <text x="400" y="210" font-family="Inter,sans-serif" font-size="22" fill="#5eead4" text-anchor="middle" opacity="0.9">Fin Bot</text>
+  <text x="400" y="330" font-family="Inter,sans-serif" font-size="14" fill="rgba(255,255,255,0.4)" text-anchor="middle">Flutter · FastAPI · GCP · Supabase</text>
+  <line x1="100" y1="380" x2="700" y2="380" stroke="#5eead4" stroke-width="1" opacity="0.15"/>
+</svg>

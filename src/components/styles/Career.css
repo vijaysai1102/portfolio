@@ -1,0 +1,109 @@
+.career-section {
+  position: relative;
+  background-color: var(--backgroundColor);
+  padding: 100px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.career-container h2 {
+  font-size: 68px;
+  font-weight: 600;
+  background: linear-gradient(120deg, var(--accentColor) 0%, #fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 56px;
+  line-height: 1.15;
+}
+.career-container h2 span {
+  -webkit-text-fill-color: var(--accentColor);
+}
+.career-info {
+  position: relative;
+  padding-left: 56px;
+}
+.career-timeline {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 2px;
+  height: calc(100% - 16px);
+  background: linear-gradient(to bottom, var(--accentColor), rgba(94,234,212,0.2));
+}
+.career-dot {
+  position: absolute;
+  bottom: -8px;
+  left: -6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accentColor);
+  box-shadow: 0 0 20px rgba(94,234,212,0.6);
+  animation: dotPulse 2s ease-in-out infinite;
+}
+@keyframes dotPulse {
+  0%,100% { box-shadow: 0 0 14px rgba(94,234,212,0.5); }
+  50%      { box-shadow: 0 0 28px rgba(94,234,212,0.9); }
+}
+.career-info-box {
+  margin-bottom: 52px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.career-info-box:last-child { border-bottom: none; }
+.career-info-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+.career-role h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.career-role h5 {
+  font-size: 13px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 1px;
+}
+.career-info-in h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accentColor);
+  white-space: nowrap;
+  margin-left: 16px;
+}
+.career-info-box p {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .career-container h2 { font-size: 36px; margin-bottom: 36px; }
+  .career-info { padding-left: 36px; }
+  .career-role h4 { font-size: 17px; }
+  .career-info-box p { font-size: 13px; }
+}
+@media (min-width: 1025px) {
+  .career-section {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 60px;
+    position: relative;
+    z-index: 2;
+    background-color: var(--backgroundColor);
+  }
+  .career-container { max-width: 860px; }
+}
+@media (min-width: 1400px) {
+  .career-container h2 { font-size: 80px; }
+}
