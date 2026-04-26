@@ -39,8 +39,8 @@ const workData = [
     subtitle: "X-Ray & MRI Image Classification",
     description:
       "CNN-based deep learning model using TensorFlow with transfer learning (ResNet, VGG16) for X-ray and MRI classification, achieving 90%+ accuracy. Apache Spark for distributed preprocessing.",
-    image: "/images/biomedical.svg",
-    link: "https://github.com/vijaysai1102/Biomedical_Image_Classifier",
+    image: "/images/biomedical.png",
+    link: "https://huggingface.co/spaces/Vijaysai16/pneumonet",
     tags: ["Python", "TensorFlow", "Keras", "ResNet", "Apache Spark"],
   },
 ];
