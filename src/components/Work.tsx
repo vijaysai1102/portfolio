@@ -10,7 +10,7 @@ const workData = [
     description:
       "RAG pipeline powered by Google Gemini to query the 2026 FIA Formula 1 Technical Regulations PDF. Returns answers with mandatory Article Number citations and zero hallucination focus.",
     image: "/images/f1rag.svg",
-    link: "https://github.com/vijaysai1102/2026_F1_Spec_RAG_Agent",
+    link: "https://f1-2026-rag-agent.streamlit.app/",
     tags: ["Python", "Google Gemini", "RAG", "LangChain", "PDF Querying", "Vector DB"],
   },
   {
@@ -29,8 +29,8 @@ const workData = [
     subtitle: "Detection, Classification & Crop Recommender",
     description:
       "Web-based plant phenotyping platform using CNN (MobileNetV2) trained on 50K+ images across 38 classes. Random Forest crop recommender achieving ~99.5% accuracy.",
-    image: "/images/plantdisease.svg",
-    link: "https://github.com/vijaysai1102/plant-disease-detection-classification-crop-recommendation",
+    image: "/images/plantdisease.png",
+    link: "https://plant-disease-detection-classification.onrender.com/",
     tags: ["Python", "TensorFlow", "MobileNetV2", "Flask", "REST APIs"],
   },
   {
